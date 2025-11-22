@@ -11,7 +11,7 @@ Ce projet de recherche (TIPE) propose une modélisation biomécanique du rachis 
 - Comparer les résultats de simulation avec des données expérimentales et des études biomécaniques publiées
 - Identifier les seuils critiques d'accélération pouvant provoquer des commotions cérébrales
 
-## 🛠️ Technologies Utilisées
+## Technologies Utilisées
 
 - **Python** : Langage de programmation principal
 - **Pygame** : Visualisation en temps réel de la simulation
@@ -72,7 +72,7 @@ Ce projet de recherche (TIPE) propose une modélisation biomécanique du rachis 
 
 ```bash
 # Cloner le repository
-git clone https://github.com/[votre-username]/cervical-impact-simulation.git
+git clone https://github.com/Jmsn35/TIPE-modelisation-rachis-cervical.git
 
 # Installer les dépendances
 pip install pygame pymunk
@@ -81,23 +81,7 @@ pip install pygame pymunk
 python main.py
 ```
 
-## 📝 Structure du Projet
 
-```
-├── main.py                 # Programme principal de simulation
-├── models/
-│   ├── vertebrae.py       # Modèle des vertèbres cervicales
-│   ├── skull.py           # Modèle du crâne
-│   ├── muscles.py         # Modèle des muscles (ressorts)
-│   └── impact.py          # Modèle de l'impact (poing)
-├── simulation/
-│   ├── physics_engine.py  # Configuration du moteur physique
-│   └── visualization.py   # Interface de visualisation
-├── data/
-│   └── experimental_data/ # Données expérimentales
-└── results/
-    └── analysis/          # Résultats et graphiques
-```
 
 ## Références
 
